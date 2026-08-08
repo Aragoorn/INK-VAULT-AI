@@ -4,6 +4,16 @@
 
 > High-performance, UUPS upgradeable smart contract vault tailored for AI agent execution, multi-asset security (ETH & ERC20), and linear vesting protocols on **Ink Mainnet**.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-purple?style=for-the-badge&logo=netlify)](https://warm-sopapillas-26ba42.netlify.app)
+[![Network](https://img.shields.io/badge/Network-Ink%20Mainnet%20(57073)-blue?style=for-the-badge)](https://explorer.inkonchain.com)
+[![Tests](https://img.shields.io/badge/Unit%20Tests-7%2F7%20Passing-emerald?style=for-the-badge)](https://github.com/Aragoorn/INK-VAULT-AI)
+
+---
+
+## 🚀 Live Demo & Interactive Dashboard
+You can explore the live, interactive enterprise dashboard, test protocol simulations, and inspect the real-time AI agent status here:
+👉 **[View Live Interactive Demo (Netlify)](https://warm-sopapillas-26ba42.netlify.app)**
+
 ---
 
 ## 🌟 Architectural Overview
@@ -37,7 +47,7 @@ The protocol is fully deployed and verified on Ink Mainnet using the UUPS Proxy 
 
 ## 📂 Project Structure
 
-```text
+```
 InkVaultAI/
 ├── contracts/
 │   └── InkVaultAI.sol             # Enterprise UUPS Vault Smart Contract
