@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ink Vault AI - Enterprise Infrastructure</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-purple-500 selection:text-white">
+
+    <!-- Header / Nav -->
+    <header class="border-b border-slate-800 bg-slate-900/50 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="bg-gradient-to-tr from-purple-600 to-indigo-500 p-2 rounded-xl text-white shadow-lg shadow-purple-500/20">
+                    <i class="fa-solid fa-shield-halved text-xl"></i>
+                </div>
+                <span class="font-bold text-xl tracking-wide bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent">Ink Vault AI</span>
+            </div>
+            <div class="flex items-center space-x-4">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                    <span class="w-2 h-2 mr-2 bg-emerald-400 rounded-full animate-pulse"></span> Ink Mainnet Live
+                </span>
+                <a href="https://github.com/Aragoorn/INK-VAULT-AI" target="_blank" class="bg-slate-800 hover:bg-slate-700 text-slate-200 px-4 py-2 rounded-xl text-sm font-medium transition border border-slate-700 flex items-center space-x-2">
+                    <i class="fa-brands fa-github"></i><span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="max-w-6xl mx-auto px-6 py-12 space-y-12">
+        <div class="text-center space-y-4 max-w-3xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight">
+                Next-Gen AI & <span class="bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">UUPS Vault Infrastructure</span> on Ink
+            </h1>
+            <p class="text-slate-400 text-lg">
+                Enterprise-grade security, automated AI agent execution, and robust multi-asset compatibility deployed natively on Ink Mainnet.
+            </p>
+        </div>
+
+        <!-- Live Contract Info Card -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-slate-900/60 border border-slate-800 p-6 rounded-2xl shadow-xl space-y-2">
+                <div class="text-slate-400 text-sm font-medium">Chain ID</div>
+                <div class="text-2xl font-bold font-mono text-purple-400">57073 <span class="text-xs font-normal text-slate-500">(Ink Mainnet)</span></div>
+            </div>
+            <div class="bg-slate-900/60 border border-slate-800 p-6 rounded-2xl shadow-xl space-y-2">
+                <div class="text-slate-400 text-sm font-medium">Proxy Architecture</div>
+                <div class="text-lg font-bold font-mono text-indigo-300 truncate">UUPS Upgradeable</div>
+                <a href="https://explorer.inkonch.com/address/0x3030948c02820981db7B3C9BA83DddaDE2B4f8" target="_blank" class="text-xs text-purple-400 hover:underline inline-flex items-center space-x-1">
+                    <span>View on Explorer</span> <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                </a>
+            </div>
+            <div class="bg-slate-900/60 border border-slate-800 p-6 rounded-2xl shadow-xl space-y-2">
+                <div class="text-slate-400 text-sm font-medium">Core Unit Tests</div>
+                <div class="text-2xl font-bold text-emerald-400 flex items-center space-x-2">
+                    <i class="fa-solid fa-circle-check"></i><span>7 / 7 Passing</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Interactive AI Agent Terminal & Features -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+            <!-- Features List -->
+            <div class="space-y-6">
+                <h2 class="text-2xl font-bold tracking-tight">Key Technical Features</h2>
+                <div class="space-y-4">
+                    <div class="bg-slate-900/40 border border-slate-800/80 p-5 rounded-xl space-y-1">
+                        <div class="font-semibold text-slate-200 flex items-center space-x-2">
+                            <i class="fa-solid fa-robot text-purple-400"></i><span>Authorized AI Agent Execution</span>
+                        </div>
+                        <p class="text-sm text-slate-400">Strict bot verification via `executeTrade` ensuring only authorized AI modules interact with target liquidity pools.</p>
+                    </div>
+                    <div class="bg-slate-900/40 border border-slate-800/80 p-5 rounded-xl space-y-1">
+                        <div class="font-semibold text-slate-200 flex items-center space-x-2">
+                            <i class="fa-solid fa-shield text-indigo-400"></i><span>Circuit Breaker & Emergency Controls</span>
+                        </div>
+                        <p class="text-sm text-slate-400">Integrated OpenZeppelin `Pausable` and `ReentrancyGuard` modules for immediate protocol-level defense.</p>
+                    </div>
+                    <div class="bg-slate-900/40 border border-slate-800/80 p-5 rounded-xl space-y-1">
+                        <div class="font-semibold text-slate-200 flex items-center space-x-2">
+                            <i class="fa-solid fa-clock-rotate-left text-emerald-400"></i><span>Linear Vesting System</span>
+                        </div>
+                        <p class="text-sm text-slate-400">Time-locked beneficiary allocations with secure on-chain claim execution over time.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Live Terminal Simulation -->
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
+                <div class="bg-slate-800/60 px-4 py-3 border-b border-slate-800 flex items-center justify-between">
+                    <div class="flex space-x-2">
+                        <div class="w-3 h-3 rounded-full bg-red-500/80"></div>
+                        <div class="w-3 h-3 rounded-full bg-yellow-500/80"></div>
+                        <div class="w-3 h-3 rounded-full bg-emerald-500/80"></div>
+                    </div>
+                    <span class="text-xs font-mono text-slate-400">ai-agent-node-ink.log</span>
+                </div>
+                <div class="p-6 font-mono text-xs space-y-3 text-slate-300">
+                    <div class="text-purple-400">[13:42:01] INITIALIZING INK VAULT AI CORE...</div>
+                    <div class="text-slate-400">[13:42:02] Connected to Ink Mainnet (RPC: 57073)</div>
+                    <div class="text-slate-400">[13:42:03] Loading UUPS Proxy: 0x3030...2B4f8</div>
+                    <div class="text-emerald-400">[13:42:04] AI Trading Bot Module: Synchronized & Authorized.</div>
+                    <div class="text-emerald-400">[13:42:05] Circuit Breaker Status: SECURE (Pausable: false)</div>
+                    <div class="text-indigo-300">[13:42:06] Monitoring active transactions and liquidity streams...</div>
+                    <div class="flex items-center space-x-2 text-purple-300 animate-pulse pt-2">
+                        <i class="fa-solid fa-terminal"></i><span>System ready for automated execution.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="border-t border-slate-800 pt-8 pb-12 text-center text-sm text-slate-500">
+            <p>Ink Vault AI &copy; 2026. Built with precision for the Ink Ecosystem.</p>
+        </footer>
+    </main>
+
+</body>
+</html>
