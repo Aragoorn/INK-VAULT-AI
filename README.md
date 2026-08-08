@@ -1,3 +1,5 @@
+<img width="1109" height="970" alt="Screenshot (2012)" src="https://github.com/user-attachments/assets/5b9b0ff3-216d-49ba-9877-5f31a2925544" />
+
 # 🛡️ Ink Vault AI - Enterprise Infrastructure
 
 > High-performance, UUPS upgradeable smart contract vault tailored for AI agent execution, multi-asset security (ETH & ERC20), and linear vesting protocols on **Ink Mainnet**.
